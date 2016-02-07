@@ -20,7 +20,6 @@ public class AcmeServlet extends HttpServlet {
      * @see HttpServlet#HttpServlet()
     public AcmeServlet() {
         super();
-        // TODO Auto-generated constructor stub
     }
  */
     

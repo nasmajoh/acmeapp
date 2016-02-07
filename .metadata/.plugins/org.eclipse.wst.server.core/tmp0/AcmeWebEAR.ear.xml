@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <archive targetInArchive="/AcmeWeb.war">
+        <dir sourceOnDisk="/home/nasmajoh/workspaces/AcmeApp/AcmeWeb/WebContent" targetInArchive="/"/>
+    </archive>
+    <dir sourceOnDisk="/home/nasmajoh/workspaces/AcmeApp/AcmeWebEAR" targetInArchive="/"/>
+</archive>

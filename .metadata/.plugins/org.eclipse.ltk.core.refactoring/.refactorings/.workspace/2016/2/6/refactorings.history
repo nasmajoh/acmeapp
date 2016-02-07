@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;WebSphere Application Server Liberty Profile/servers/defaultServer/apps/EJServiceEAR.ear.xml&apos;" deleteContents="false" description="Delete resource &apos;WebSphere Application Server Liberty Profile/servers/defaultServer/apps/EJServiceEAR.ear.xml&apos;" element1="/WebSphere Application Server Liberty Profile/servers/defaultServer/apps/EJServiceEAR.ear.xml" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1454347653128"/>
+</session>

@@ -1,0 +1,8 @@
+INDEX VERSION 1.3+/home/nasmajoh/workspaces/AcmeApp/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2359584397.index
+1446197602.index
+2029027017.index
+1782307543.index
+2895217799.index
+4072221525.index
+2532818884.index

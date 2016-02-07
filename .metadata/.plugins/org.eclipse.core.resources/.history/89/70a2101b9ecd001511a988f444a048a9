@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14545245297960" configfile="/AcmeWeb/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="input" x="135" y="193" id="pf14545331954990" outlinks="pf14545331954991" inlinks="pf14545331954992 pf14545331954993" path="/input.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="visit" x="366" y="193" id="pf14545331954994" outlinks="pf14545331954995 pf14545331954993" inlinks="pf14545331954991" path="/visit.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="goodbye" x="252" y="312" id="pf14545331954996" outlinks="pf14545331954992" inlinks="pf14545331954995" path="/goodbye.jsp"/>
+  <links id="pf14545331954991" target="pf14545331954994" source="pf14545331954990" outcome="submit"/>
+  <links id="pf14545331954995" target="pf14545331954996" source="pf14545331954994" outcome="goodbye"/>
+  <links id="pf14545331954992" target="pf14545331954990" source="pf14545331954996" outcome="clear"/>
+  <links id="pf14545331954993" target="pf14545331954990" source="pf14545331954994" outcome="clear"/>
+</pageflow:Pageflow>

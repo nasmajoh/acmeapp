@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14545245297960" configfile="/AcmeWeb/WebContent/WEB-INF/faces-config.xml">
-  <nodes xsi:type="pageflow:PFPage" name="input" id="pf14548514647250" referenceLink="//@navigationRule.3/@navigationCase.0/@toViewId|" outlinks="pf14548514647251" inlinks="pf14548514647252 pf14548514647253" path="/input.xhtml"/>
-  <nodes xsi:type="pageflow:PFPage" name="visit" id="pf14548514647264" referenceLink="//@navigationRule.3/@fromViewId|" outlinks="pf14548514647265 pf14548514647253" inlinks="pf14548514647251" path="/visit.xhtml"/>
-  <nodes xsi:type="pageflow:PFPage" name="goodbye" id="pf14548514647266" referenceLink="//@navigationRule.2/@fromViewId|" outlinks="pf14548514647252" inlinks="pf14548514647265" path="/goodbye.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="input" x="120" y="96" id="pf14548514647250" referenceLink="//@navigationRule.3/@navigationCase.0/@toViewId|" outlinks="pf14548514647251" inlinks="pf14548514647252 pf14548514647253" path="/input.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="visit" x="528" y="96" id="pf14548514647264" referenceLink="//@navigationRule.3/@fromViewId|" outlinks="pf14548514647265 pf14548514647253" inlinks="pf14548514647251" path="/visit.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="goodbye" x="300" y="228" id="pf14548514647266" referenceLink="//@navigationRule.2/@fromViewId|" outlinks="pf14548514647252" inlinks="pf14548514647265" path="/goodbye.xhtml"/>
   <links id="pf14548514647251" target="pf14548514647264" source="pf14548514647250" outcome="submit"/>
   <links id="pf14548514647265" target="pf14548514647266" source="pf14548514647264" outcome="goodbye"/>
   <links id="pf14548514647252" target="pf14548514647250" source="pf14548514647266" outcome="clear"/>

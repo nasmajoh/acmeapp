@@ -8,9 +8,22 @@
 		<enabled>true</enabled>
 		<async-supported>false</async-supported>
 	</servlet>
+	<servlet>
+		<description>
+		JAX-RS Tools Generated - Do not modify</description>
+		<servlet-name>JAX-RS Servlet</servlet-name>
+		<servlet-class>com.ibm.websphere.jaxrs.server.IBMRestServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+		<enabled>true</enabled>
+		<async-supported>false</async-supported>
+	</servlet>
 	<servlet-mapping>
 		<servlet-name>Faces Servlet</servlet-name>
+		<url-pattern>/faces/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>JAX-RS Servlet</servlet-name>
 		<url-pattern>
-		/faces/*</url-pattern>
+		/jaxrs/*</url-pattern>
 	</servlet-mapping>
 </web-app>
